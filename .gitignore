@@ -1,0 +1,26 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build directory
+build/
+
+# Ignore .env file
+.env
+
+# Ignore .DS_Store file
+.DS_Store
+
+# Ignore .idea directory
+.idea/
+
+# Ignore .vscode directory
+.vscode/
+
+# Ignore .gitignore file
+.gitignore
+
+# Ignore README.md file
+README.md
+
+# Ignore LICENSE file
+LICENSE
