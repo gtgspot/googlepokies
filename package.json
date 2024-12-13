@@ -1,0 +1,27 @@
+{
+  "name": "googlepokies",
+  "version": "1.0.0",
+  "description": "A web application for Google Pokies",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "webpack",
+    "scheduled-task": "node scheduledTask.js"  // Example of a scheduled task
+  },
+  "keywords": [
+    "pokies",
+    "google",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"  // Example dependency
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",  // Linter
+    "jest": "^27.0.6",     // Testing framework
+    "webpack": "^5.64.4"   // Module bundler
+  }
+}
