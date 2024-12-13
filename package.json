@@ -7,7 +7,6 @@
     "lint": "eslint .",
     "test": "jest",
     "build": "webpack",
-    "scheduled-task": "node scheduledTask.js"
   },
   "keywords": [
     "pokies",
@@ -25,11 +24,20 @@
   },
   "homepage": "https://github.com/gtgspot/googlepokies#readme",
   "dependencies": {
+
+    "express": "^4.17.1" 
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0", 
+    "jest": "^27.0.6",    
+    "webpack": "^5.64.4"  
+
     "express": "^4.17.1"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
     "jest": "^27.0.6",
     "webpack": "^5.64.4"
+
   }
 }
