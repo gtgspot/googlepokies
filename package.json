@@ -7,22 +7,29 @@
     "lint": "eslint .",
     "test": "jest",
     "build": "webpack",
-    "scheduled-task": "node scheduledTask.js"  
+    "scheduled-task": "node scheduledTask.js"
   },
   "keywords": [
     "pokies",
     "google",
     "web"
-  
   ],
   "author": "Your Name",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtgspot/googlepokies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gtgspot/googlepokies/issues"
+  },
+  "homepage": "https://github.com/gtgspot/googlepokies#readme",
   "dependencies": {
-    "express": "^4.17.1" 
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint": "^7.32.0", 
-    "jest": "^27.0.6",    
-    "webpack": "^5.64.4"  
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "webpack": "^5.64.4"
   }
 }
