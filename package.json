@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "test": "jest",
     "build": "webpack",
-    "scheduled-task": "node scheduledTask.js"  // Example of a scheduled task
+    "scheduled-task": "node scheduledTask.js" 
   },
   "keywords": [
     "pokies",
@@ -17,11 +17,11 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"  // Example dependency
+    "express": "^4.17.1" 
   },
   "devDependencies": {
-    "eslint": "^7.32.0",  // Linter
-    "jest": "^27.0.6",     // Testing framework
-    "webpack": "^5.64.4"   // Module bundler
+    "eslint": "^7.32.0", 
+    "jest": "^27.0.6",    
+    "webpack": "^5.64.4"  
   }
 }
